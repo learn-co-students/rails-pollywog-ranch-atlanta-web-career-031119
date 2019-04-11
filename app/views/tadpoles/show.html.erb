@@ -16,3 +16,7 @@
 <div class="card">
   <img src="http://<%= @tadpole.color %>-tadpole.jpg.to/" alt="Tadpole Picture" width="300">
 </div>
+
+<%= button_to [:metamorphose, @tadpole] do %>
+   <strong>Become a frog</strong>
+<% end %>
